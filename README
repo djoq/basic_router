@@ -1,0 +1,13 @@
+### Node server
+
+First, run `npm install`
+
+After installing, start the server by issuing the command `node index.js`
+
+## Testing
+Very simple test, run `mocha` in the root of app.
+
+## Motiviation
+Starting point for http API projects. Works with formidable, uploads to the server are simplified. Socket problems like sending of headers after they're sent are avoided by not adding extraneous modules (common in express, restify, etc)
+
+
